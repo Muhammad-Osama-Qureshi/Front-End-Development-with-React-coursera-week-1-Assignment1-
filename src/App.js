@@ -1,4 +1,5 @@
 import React,{Component} from 'react';
+import Menu from './components/MenuComponents'
 
 import { Navbar, NavbarBrand } from 'reactstrap';
 
@@ -10,9 +11,8 @@ class App extends Component {
           <div className="container">
             <NavbarBrand href="/">Bon Soir Eliot!! </NavbarBrand>
             </div>
-          
-            
         </Navbar>
+        <Menu/>
       </div>
     );
   }
